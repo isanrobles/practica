@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PROYECTO No.1 PROGRAMACION WEB</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel = "stylesheet" href = "StyleSheet2.css">
+</head>
+<body>
+<div id = "inicio5">
+<h1>"JAVA-APPLETS"</h1>
+<hr>
+
+<ul>
+<li><a href='ProyectoWha.html'>"Regresar a el Menu Principal"</a></li>
+</ul>
+
+<header>
+<nav>	
+<ul>
+<li><a href='javascript2.html'>1. JavaScript</a></li>
+<li><a href='flash_actionscript2.html'>2. Flash/JavaScript</a></li>
+<li><a href='Dart2.html'>3. Dart</a></li>
+<li><a href='VBScript2.html'>4. VBScript</a></li>
+<li><a href='javaApplets2.html'>5. Java Applets</a></li>
+<li><a href='silverLight2.html'>6. Silverlight</a></li>
+<li><a href='jQuery2.html'>7. jQuery</a></li>
+<li><a href='ajax2.html'>8. Ajax</a></li>
+</ul>
+</nav>
+</header>
+
+<ul>
+<li><a href="#tema1">1. Introduccion</a></li>
+<li><a href="#tema2">2. Historia</a></li>
+<li><a href="#tema3">3. Ventajas</a></li>
+<li><a href="#tema4">4. Desventajas</a></li>
+<li><a href="#tema5">5. Requerimientos</a></li>
+<li><a href="#tema6">6. Eventos/Codigos</a></li>
+</ul>
+<hr>
+
+<h2><a id="tema1">1. Introduccion</a></h2>
+<p><b>Que es JavaApplets?</b><br>
+<p>Un applet es:<br>
+– desde el punto de vista de código Java, un<br>
+programa diseñado para ser ejecutado en el<br>
+contexto de una página web.<br><br>
+– desde el punto de vista de una página html, una<br>
+pequeña ventana gráfica dentro de la misma.<br><br>
+• Diferencia con una aplicación Java:<br>
+– Para cargar y ejecutar una aplicación Java utilizamos<br>
+directamente el intérprete Java.<br><br>
+– Un applet se carga y se ejecuta desde cualquier<br>
+explorador que soporte Java. 
+</p><br>
+
+<img src="javaapp.jpg" alt="javaapp" width="300" height="150">
+<p>Figura 1 JavaApplets</p><br>
+<ul>
+<li><a href="#inicio5">"Menu JavaApplets"</a></li>
+</ul>
+<br>
+<hr>
+
+
+
+
+<h2><a id="tema3">3. Ventajas</a></h2>
+<p>Los applets de Java suelen tener las siguientes ventajas:<br><br>
+Son multiplataforma (funcionan en Linux, Windows, Mac OS, y en cualquier sistema operativo para el cual exista una Java Virtual Machine).<br>
+El mismo applet puede trabajar en "todas" las versiones de Java, y no sólo en la última versión del plugin. Sin embargo, si un applet requiere una versión<br> posterior del Java Runtime Environment (JRE), el cliente se verá obligado a esperar durante la descarga de la nueva JRE.<br>
+Es compatible con la mayoría de los navegadores web.<br><br>
+Puede ser almacenado en la memoria caché de la mayoría de los navegadores web, de modo que se cargará rápidamente cuando se vuelva a cargar la página web, aunque<br> puede quedar atascado en la caché, causando problemas cuando se publican nuevas versiones.<br>
+Puede tener acceso completo a la máquina en la que se está ejecutando, si el usuario lo permite.<br>
+Puede ejecutarse a velocidades comparables a las de otros lenguajes compilados, como C++ (dependiendo de la versión de la JVM).<br>
+Puede trasladar el trabajo del servidor al cliente, haciendo una solución web más escalable tomando en cuenta el número de usuarios o clientes.<br>
+</p><br>
+<ul>
+<li><a href="#inicio5">"Menu JavaApplets"</a></li>
+</ul>
+<br>
+<hr>
+
+<h2><a id="tema4">4. Desventajas</a></h2>
+<p>Los applets de Java suelen tener las siguientes desventajas:<br><br>
+Requiere el plugin de Java, que no está disponible por defecto en todos los navegadores web.<br>
+No puede iniciar la ejecución hasta que la JVM esté en funcionamiento, y esto puede tomar tiempo la primera vez que se ejecuta un applet.<br>
+Si no está firmado como confiable, tiene un acceso limitado al sistema del usuario - en particular no tiene acceso directo al disco duro del cliente o al<br> portapapeles.<br><br>
+Algunas organizaciones sólo permiten la instalación de software a los administradores. Como resultado, muchos usuarios (sin privilegios para instalar el plugin en<br> su navegador) no pueden ver los applets.<br>
+Un applet podría exigir una versión específica del JRE.<br>
+Puede tener vulnerabilidades que permitan ejecutar código malicioso.<br>
+</p><br>
+<ul>
+<li><a href="#inicio5">"Menu JavaApplets"</a></li>
+</ul>
+<br>
+<hr>
+
+
+
+<h2><a id="tema5">5. Requerimientos</a></h2>
+<p>Capacidades de interconexión TCP/IP.<br>
+– Proporciona librerías y herramientas para<br>
+que los programas construidos puedan ser<br>
+distribuidos:<br><br>
+• Librerías de rutinas para acceder e interactuar<br>
+con protocolos como http y ftp.
+</p><br>
+<ul>
+<li><a href="#inicio5">"Menu JavaApplets"</a></li>
+</ul>
+<br>
+<hr>
+
+
+<h2><a id="tema6">6. Eventos/Codigos</a></h2>
+
+<p>
+<p><b>Aplicaciones Java</b></p>
+<p>
+Dependiendo en que entorno se vaya a<br>
+ejecutar, los programas se denominan:<br><br>
+– Stand-Alone: Programas tanto gráficos<br>
+como de línea de comandos.<br><br>
+– Applet: Programas embebidos en el<br>
+“navegador web”.<br><br>
+– Servlets: Programas embebidos en el<br>
+“servidor web”.<br>
+</p><br>
+
+
+<img src="20.jpg" alt="20" width="450" height="250">
+<p>Figura 2 JavaApplets</p>
+
+<p><b>Una aplicación en Java</b></p>
+<p>Cada programa de la aplicación es una clase.<br>
+- Cada clase tiene un método llamado main.<br>
+- main es un método estático, accesible sólo a la<br>
+clase:<br><br>
+– No es necesario crear una instancia de la clase.<br>
+– No obstante, se puede crear una instancia de la clase!<br>
+- Un applet no se rige por las mismas normas.<br>
+</p><br>
+
+<img src="23.jpg" alt="23" width="400" height="300">
+<p>Figura 3 JavaApplets</p><br>
+
+
+<p><b>Compilación y ejecución de HolaMundo</b></p>
+<p>El código se guarda en un fichero llamado<br>
+HolaMundoApp.java.<br><br>
+– El nombre de la clase debe ser igual al del fichero que<br>
+contiene el código fuente.<br>
+Compilación del programa:<br>
+– javac HolaMundoApp.java<br>
+<br><br>
+HolaMundoApp.class<br>
+Ejecución del programa:<br>
+– java HolaMundoApp<br>
+</p>
+
+
+<p><b>Applets</b></p>
+<p>Integración página web/ código Java:<br>
+&lt;<!--</title>-->&gt; Página web con Applet &lt;<!--</title>-->&gt;<br>
+&lt;<!--<applet code= ”Codigo.class”<br>-->&gt;
+width=300 height=200 > &lt;<!--</applet>-->&gt;<br>
+-Método init();<br>
+-Método paint();<br>
+</p><br>
+
+<img src="24.jpg" alt="24" width="400" height="300">
+<p>Figura 4 JavaApplets</p><br>
+
+<ul>
+<li><a href="#inicio5">"Menu JavaApplets"</a></li>
+</ul>
+<br>
+<hr>
+
+<br>
+</div>
+<a href='ProyectoWha.html'>"Regresar a el Menu Principal"</a>
+</body>
+</html>
