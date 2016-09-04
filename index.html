@@ -1,7 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
 <title>Documento sin título</title>
 <style type="text/css">
 body,td,th {
@@ -11,11 +13,28 @@ body {
 	background-color: #000;
 }
 </style>
-</head>
+<script  type="text/javascript">
+				
+		function btn1()
+			{
+				document.getElementById("txt2").value = document.getElementById("txt1").value;	
+				document.getElementById("txt1").value="";
+			}
+
+</script>
 
 <body>
+
 <p>
   <input name="imgconstruccion" type="image" value="-" src="Imagenes/14169486_10208598163365792_1961646262_n.gif" align="center" />
+  <form  method="post" name="form1" action="Conexion.php">
+ 
+  <input name="txt1" id ="txt1" type="text" value="" />
+  <input name="txt2"  id ="txt2" type="text" value= ""/>
+  <input name="txt3"  id ="txt3" type="text" value= ""/>
+  <input name="bt1" type="submit" value="Next")"/>
+  
+  </form>
 </p>
 <p>© - Diseñadores ISAN </p>
 </body>
